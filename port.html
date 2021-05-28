@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/fullpage/fullpage.css">
+  <link rel="stylesheet" href="./src/porfolio__css/portfolio.css">
+  <link rel="stylesheet" href="./src/porfolio__css/home__section.css">
+  <link rel="stylesheet" href="./src/porfolio__css/about__section.css">
+  <link rel="stylesheet" href="./src/porfolio__css/skill__section.css">
+  <link rel="stylesheet" href="./src/porfolio__css/work__section.css">
+  <link rel="icon" type="image/png" href="../images/peace-solid.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <!-- ENG font -->
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  <!-- KOR font -->
+  <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+  <script defer src="./src/fullpage/fullpage.js"></script>
+  <script defer type="module" src="src/portfolio_main.js"></script>
+  <title>YangSangChul</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar__title">
+      <div class="nav__logo">
+        <i class="fab fa-angellist"></i>
+      </div>
+      SangChul's Portfolio Page
+    </div>
+    <div class="nav__menu">
+      <ul class="navbar__menus">
+        <li class="navbar__menus__item li_home">
+          <a class="navbar__menus__a" href="#homePage">Home</a>
+        </li>
+        <div class="navbar__menus__divider"></div>
+        <li class="navbar__menus__item li_about">
+          <a class="navbar__menus__a" href="#aboutPage">About</a>
+        </li>
+        <div class="navbar__menus__divider"></div>
+        <li class="navbar__menus__item li_skills">
+          <a class="navbar__menus__a" href="#skillPage">Skills</a>
+        </li>
+        <div class="navbar__menus__divider"></div>
+        <li class="navbar__menus__item li_work">
+          <a class="navbar__menus__a" href="#workPage">My Work</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class='fullpage' id="fullpage">
+    <!-- Home -->
+    <section class="section" data-anchor="homePage">
+      <div class="home__section" id="home__section">
+        <div class="home__box">
+          <div class="home__intro">
+            <p class="home__h1 ">
+              안녕하세요. <br>
+              처음 뵙겠습니다 :)
+            </p>
+            <p class="home__h2 ">
+              어제보다 <b style="color: white;">오늘,</b> 한뼘 더 나은<br>
+              개발자가 되려고 노력중인
+            </p>
+            <p class="home__h3 ">
+              "개발자 지망생 <b style="color: white;">양상철</b> 입니다."
+            </p>
+          </div>
+        </div>
+        <div class="home__profile__box">
+          <img class="home__profile" src="./images/profile_hanriver.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="section" data-anchor="aboutPage">
+      <div class="about__section" id="about__section">
+        <div class="about__box">
+          <div class="about__contain__describe">
+            <div class="about__describe1">
+              <p class="describe1__h1">
+                "About Me"
+              </p>
+              <p class="descibe1__h2">
+                "sub text"
+              </p>
+              <p class="describe1__text">
+                "main text"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" data-anchor="skillPage">
+      <div class="slide" data-anchor="slide1">
+        <div class="skill__section__1" id="skill__section">
+          <div class="skill__box1">
+            <div class="skill__describe">
+              <p class="describe__main">
+                "지금까지 학습한 <br>
+                프로그램 언어들은 <br>
+                이렇습니다."
+              </p>
+              <p class="describe__sub">
+                Front End 와 Back End, Mobile과 관련된
+                다양한 프로그램 언어들을 경험해보았습니다.<br>
+                한번씩 경험해본 언어들은 숙련도를 높이기 위해 
+                노력중이며,<br>
+                아직 배우지 못한 언어들을 학습해서
+                꾸준히 업데이트 해나가겠습니다.
+              </p>
+            </div>
+            <div class="skill__majors1">
+              <div class="skill__front major__boxs">
+                <p>Front End</p>
+                <div class="front__logo">
+                  <i class="fab fa-html5"></i>
+                </div>
+              </div>
+              <div class="skill__back major__boxs">
+                <p>Back End</p>
+                <div class="back__logo">
+                  <i class="fas fa-cubes"></i>
+                </div>
+
+              </div>
+              <div class="skill__mobile major__boxs">
+                <p>Mobile</p>
+                <div class="mobile__logo">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide" data-anchor="slide2">
+        <div class="skill__section__2">
+          <div class="skill__box">
+            <div class="skill__majors">
+              <div class="skill__major__box skill_front">
+                <p class="skill__major__title">Front End</p>
+                <div class="skill__major__img front">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <div class="skill__major__front">
+                  <div class="html">
+                    <img class="major__images img__html" src="./images/program_lang_png/html.png" alt="html">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">html 40%</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__html "></span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="css">
+                    <img class="major__images img__css" src="./images/program_lang_png/css3.png" alt="css3">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">css 40%</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__css "></span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="js">
+                    <img class="major__images img__js" src="./images/program_lang_png/js.png" alt="js">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">js 30%</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__js "></span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="react">
+                    <img class="major__images img__react" src="./images/program_lang_png/react.png" alt="react">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">React comming soon</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__react react__bar__ani"></span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="ts">
+                    <img class="major__images img__ts" src="./images/program_lang_png/ts.png" alt="ts">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">Ts comming soon</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__ts ts__bar__ani"></span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="skill__major__box skill_back">
+                <p class="skill__major__title">Back End</p>
+                <div class="skill__major__img back">
+                  <i class="fas fa-cubes"></i>
+                </div>
+                <div class="skill__major__back">
+                  <div class="java">
+                    <img class="major__images img__java" src="./images/program_lang_png/java.png" alt="html">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">java 40%</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__java "></span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="toad">
+                    <img class="major__images img__toad" src="./images/program_lang_png/toad.png" alt="html">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">toad 20%</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__toad "></span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="firebase">
+                    <img class="major__images img__firebase" src="./images/program_lang_png/firebase.png" alt="html">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">firebase commingsoon</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__firebase firebase__bar__ani"></span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="skill__major__box skill_mobile">
+                <p class="skill__major__title">Mobile</p>
+                <div class="skill__major__img mobile">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                  <div class="android">
+                    <img class="major__images img__android" src="./images/program_lang_png/android_studio.png" alt="android">
+                    <ul class="css__progress">
+                      <li>
+                        <span class="progress__title">Android Studio comming soon</span>
+                      </li>
+                      <li class="css__progress__bar">
+                        <span class="progress__bar common__bar__and android__bar__ani"></span>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="section" data-anchor="workPage">
+      <div class="work__section" id="work__section">
+        <div class="work__decribe">
+          <p class="work__text work__text__ani">
+            will be update soon...
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
