@@ -62,7 +62,6 @@ export default class FadeEffect {
     console.log('<hide>');
     console.log(anchor);
     if(anchor === 'homePage'){
-      this.home_bgtitle.classList.remove('fadein-ani');
     }
     else if(anchor === 'aboutPage'){
     }

@@ -330,7 +330,7 @@
   position: relative;
   width: 90%;
   height: 5px;
-  margin-top: 5px;
+  margin-top: 3px;
   border-radius: 10px;
   background-color: rgb(114, 113, 113);
 }
@@ -342,7 +342,7 @@
   height: 10px;
   border-radius: 10px;
   background-color: #35495e;
-  transform: translateX(-216px);
+  transform: translateX(-220px);
 }
 
 .progress__bar::after {
